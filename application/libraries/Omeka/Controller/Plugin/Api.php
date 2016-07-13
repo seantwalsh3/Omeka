@@ -97,7 +97,7 @@ class Omeka_Controller_Plugin_Api extends Zend_Controller_Plugin_Abstract
         ), 
         'tags' => array(
             'record_type' => 'Tag', 
-            'actions' => array('index', 'get', 'delete'), 
+            'actions' => array('index', 'get', 'delete'),
         ), 
     );
     
